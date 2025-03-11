@@ -1,0 +1,105 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        .hero { background: url('https://media.cntraveler.com/photos/678166b8a51cc7c3458df25a/16:9/w_2580,c_limit/pexels-Aleksandar%20Pasaric-2506923.jpg') center/cover no-repeat; height: 60vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; font-size: 2em; font-weight: bold; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        h2 { color: #333; }
+        .attractions { display: flex; flex-wrap: wrap; gap: 20px; }
+        .attraction { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 30%; text-align: center; }
+        .attraction img { width: 100%; border-radius: 10px; }
+        .map { text-align: center; margin: 20px 0; }
+        iframe { width: 100%; height: 300px; border: none; border-radius: 10px; }
+        .contact { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        input, textarea, button { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 5px; }
+        button { background: #007BFF; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        @media (max-width: 768px) { .attraction { width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="hero">Welcome to Tokyo</div>
+    
+    <div class="container">
+        <h2>About Tokyo</h2>
+        <p>Discover the vibrant culture, futuristic skyline, and historic temples of Tokyo</p>
+        
+        <h2>Top Attractions</h2>
+        <div class="attractions">
+            <div class="attraction">
+                <img src="https://media.timeout.com/images/105946468/image.jpg" alt="Shibuya Crossing">
+                <h3>Shibuya Crossing</h3>
+            </div>
+            <div class="attraction">
+                <img src="https://japanbite.com/cdn/shop/articles/tokyo-tower_1200x.webp?v=1730031838" alt="Tokyo Tower">
+                <h3>Tokyo Tower</h3>
+            </div>
+            <div class="attraction">
+                <img src="https://www.vikipandit.com/wp-content/uploads/sensoji-temple-1024x683.jpg" alt="Senso-ji Temple">
+                <h3>Senso-ji Temple</h3>
+            </div>
+        </div>
+        
+        
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        .hero { background: url('https://media.cntraveler.com/photos/678166b8a51cc7c3458df25a/16:9/w_2580,c_limit/pexels-Aleksandar%20Pasaric-2506923.jpg') center/cover no-repeat; height: 60vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; font-size: 2em; font-weight: bold; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        h2 { color: #333; }
+        .attractions { display: flex; flex-wrap: wrap; gap: 20px; }
+        .attraction { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 30%; text-align: center; }
+        .attraction img { width: 100%; border-radius: 10px; }
+        .attraction a { display: block; margin-top: 10px; text-decoration: none; font-weight: bold; color: #007BFF; }
+        .attraction a:hover { color: #0056b3; }
+        .booking-links { text-align: center; margin: 20px 0; }
+        .booking-links a { display: inline-block; background: #007BFF; color: white; padding: 10px 15px; text-decoration: none; font-weight: bold; border-radius: 5px; margin: 10px; transition: 0.3s; }
+        .booking-links a:hover { background: #0056b3; }
+        @media (max-width: 768px) { .attraction { width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="hero">Welcome to Tokyo</div>
+    
+    <div class="container">
+        <h2>About Tokyo</h2>
+        <p>Discover the vibrant culture, futuristic skyline, and historic temples of Tokyo.</p>
+        
+        <h2>Top Attractions</h2>
+        <div class="attractions">
+            <div class="attraction">
+                <img src="https://media.timeout.com/images/105946468/image.jpg" alt="Shibuya Crossing">
+                <h3>Shibuya Crossing</h3>
+                <a href="https://www.gotokyo.org/en/spot/23/index.html" target="_blank">Learn More</a>
+            </div>
+            <div class="attraction">
+                <img src="https://japanbite.com/cdn/shop/articles/tokyo-tower_1200x.webp?v=1730031838" alt="Tokyo Tower">
+                <h3>Tokyo Tower</h3>
+                <a href="https://www.tokyotower.co.jp/en.html" target="_blank">Learn More</a>
+            </div>
+            <div class="attraction">
+                <img src="https://www.vikipandit.com/wp-content/uploads/sensoji-temple-1024x683.jpg" alt="Senso-ji Temple">
+                <h3>Senso-ji Temple</h3>
+                <a href="https://www.senso-ji.jp/about/index_e.html" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <h2>Book Your Trip</h2>
+        <div class="booking-links">
+            <a href="https://www.skyscanner.com/" target="_blank">Book Flights</a>
+            <a href="https://www.booking.com/" target="_blank">Book Hotels</a>
+        </div>
+    </div>
+</body>
+</html>

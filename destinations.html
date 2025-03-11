@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism</title>
+    <style>
+        .destinations{
+text-align:center;
+padding: 50px 20px;
+background-color: aliceblue;
+padding: 50px 20px;
+        }
+        .destinations h2{
+            font-size: 3em;
+    margin-bottom: 20px;
+    color: black
+        }
+        .destination h3 {
+    margin-top: 10px;
+    font-size: 2em;
+    color: #444;
+        }
+        .destinations {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.destinations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.destination {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .destination {
+        width: 45%;
+    }
+}
+
+.destinations {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.destinations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.destination {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #444;
+}
+
+
+@media (max-width: 500px) {
+    .destination {
+        width: 100%;
+    }
+}
+
+
+
+    </style>
+    
+</head>
+<body>
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination" onclick="openModal('New York','new york.jpg','The city that never sleeps!')">
+            <a href="new york.html">
+         <img src="new york.jpg" alt="Destination 1" width="400" height="500">
+         <h3>New York</h3>
+        </a>
+        </div>
+        <div class="destination" onclick="openModal('Paris', 'paris.jpg', 'The city of love and lights!')">
+            <a href="paris.html">
+         <img src="paris.jpg" alt="Destination 2" width="400" height="500">
+         <h3>Paris</h3>
+        </a>
+        </div>
+        <div class="destination" onclick="openModal('Tokyo', 'tokyo.jpg', 'The city of love and lights!')">
+            <a href="tokyo.html">
+         <img src="tokyo.jpg" alt="Destination 3" width="400" height="500">
+         <h3>Tokyo</h3>
+        </a>
+        </div>
+        <div class="destination" onclick="openModal('India', 'india.jpg', 'Discover the rich culture, heritage, and beauty of India!')">
+            <a href="india.html">
+            <img src="india.jpg" alt="Destination 4" width="400" height="500">
+            <h3>India</h3>
+        </a>
+           </div>
+       </section>
+</body>
+</html>
